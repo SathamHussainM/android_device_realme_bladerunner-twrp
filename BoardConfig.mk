@@ -48,6 +48,9 @@ TARGET_USES_UEFI := true
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := RMX2076,RMX2076L1,RMX2076EU,RMX2075EU,RMX2071CN
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 firmware_class.path=/vendor/firmware_mnt/image loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 skip_override androidboot.fastboot=1
 BOARD_KERNEL_IMAGE_NAME := Image
@@ -74,7 +77,6 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-
 
 # Platform
 TARGET_BOARD_PLATFORM := kona
