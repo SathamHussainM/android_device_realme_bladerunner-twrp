@@ -25,6 +25,11 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import /system/etc/init/init.ago.rc
+
+on early-init 
+     start adbd
+
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
 
