@@ -166,4 +166,7 @@ TARGET_USES_LOGD := true
 # PBRP specific build flags
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+
+# PB Torch
+PB_TORCH_PATH := "/proc/qcom_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
