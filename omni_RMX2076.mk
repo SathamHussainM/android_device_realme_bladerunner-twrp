@@ -38,4 +38,3 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2127-12-31 \
     ro.bootimage.build.date.utc=0 \
-    ro.build.date.utc=0
