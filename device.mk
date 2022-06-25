@@ -18,6 +18,7 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     libdrm \
     libion \
     libpcrecpp \
+    android.hardware.boot@1.2 \
     libxml2
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
@@ -26,6 +27,7 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libdrm.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libpcrecpp.so \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.boot@1.2.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
 
 PRODUCT_PACKAGES += \
