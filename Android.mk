@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),RMX2076)
+ifeq ($(TARGET_DEVICE),bladerunner)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/realme/RMX2076
+DEVICE_PATH := device/realme/bladerunner
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -48,7 +48,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2076,RMX2076L1,RMX2076PU,RMX2076EU,RMX2075EU,RMX2071CN
+TARGET_OTA_ASSERT_DEVICE := RMX2076,RMX2076L1,RMX2076PU,RMX2076EU,RMX2075EU,RMX2071CN,bladerunner
 
 # Bootloader
 PRODUCT_PLATFORM := kona

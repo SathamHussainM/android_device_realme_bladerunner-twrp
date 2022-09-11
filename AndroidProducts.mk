@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_RMX2076.mk
+    $(LOCAL_DIR)/twrp_bladerunner.mk
 
-COMMON_LUNCH_CHOICES := twrp_RMX2076-eng
+COMMON_LUNCH_CHOICES := twrp_bladerunner-eng
